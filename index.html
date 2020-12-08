@@ -14,10 +14,44 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
 
-body, html {
-  height: 100%;
-  margin: 0;
+	*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	}	
+	
+	
+body {
   font-family: cursive;
+  background-color: lightskyblue;
+  animation-name: example;
+  animation-duration: 120s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes example {
+  0%   {background-color: #F58E78;}
+  5%  {background-color: yellow;}
+  10%  {background-color: lightblue;}
+  15% {background-color: lightgreen;}
+    20%   {background-color: #5DADE2;}
+  25%  {background-color: yellow;}
+  30%  {background-color: lightblue;}
+  35% {background-color: lightgreen;}
+    40%   {background-color: white;}
+  45%  {background-color: #F39C12;}
+  50%  {background-color: lightblue;}
+  55% {background-color: lightgreen;}
+    60%   {background-color: pink;}
+  65%  {background-color: yellow;}
+  70%  {background-color: lightblue;}
+  75% {background-color: lightgreen;}
+    80%   {background-color: orange;}
+  85%  {background-color: yellow;}
+  90%  {background-color: lightblue;}
+  95% {background-color: lightgreen;}
+  100%   {background-color: red;}
 }
 
 
